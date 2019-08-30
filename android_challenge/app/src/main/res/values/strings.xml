@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TechNewsSample</string>
+
+    <string name="fetching_data">Please wait while we fetch today\'s news.</string>
+    <string name="refresh">Refresh</string>
+    <string name="read_error_cache">No news available. Please connect to the internet and refresh.</string>
+    <string name="read_error_server">Invalid server response or network error.</string>
+    <string name="offline">You are currently offline.</string>
+    <string name="full_story">Full Story</string>
+</resources>

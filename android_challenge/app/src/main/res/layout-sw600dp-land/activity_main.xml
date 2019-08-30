@@ -1,0 +1,30 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity"
+    android:baselineAligned="false">
+
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:layout="@layout/fragment_main"
+        android:name="news.agoda.com.sample.view.FragmentMain"
+        >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentDetails"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:name="news.agoda.com.sample.view.FragmentDetail"
+        tools:layout="@layout/fragment_detail">
+
+    </fragment>
+
+</LinearLayout>
